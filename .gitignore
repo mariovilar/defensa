@@ -5,6 +5,7 @@
 
 # Agent-local skills used in this workspace
 .agents/skills/*
+skills-lock.json
 
 # LaTeX build outputs
 build/
