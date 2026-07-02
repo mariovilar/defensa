@@ -15,6 +15,8 @@ diapositiva i no altera cap convencio, no cal tocar la documentacio.
 
 ## Fitxers importants
 
+- [`README.md`](README.md): resum public del projecte, compilacio, fitxers clau
+  i llicencia.
 - [`presentacio.tex`](presentacio.tex): document principal de la defensa.
 - [`guio_defensa.tex`](guio_defensa.tex): guio oral de la defensa, organitzat
   per diapositives i construit progressivament a partir de la presentacio i del

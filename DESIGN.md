@@ -44,6 +44,11 @@ no canvia cap convencio.
 
 ## Arquitectura general
 
+[`README.md`](README.md) es el resum public del projecte: descriu la presentacio,
+els fitxers principals, la compilacio canonica i la llicencia. Ha de quedar
+sincronitzat amb aquesta guia quan canviin fluxos de compilacio, fitxers clau o
+llicencia.
+
 El projecte tambe conte [`guio_defensa.tex`](guio_defensa.tex), un document
 `article` separat de la presentacio. Aquest fitxer no controla el disseny
 Beamer: serveix com a guio oral de la defensa, organitzat per diapositives i
