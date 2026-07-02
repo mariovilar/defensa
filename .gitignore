@@ -1,0 +1,35 @@
+# macOS / editor local state
+.DS_Store
+*.swp
+*.swo
+
+# Agent-local skills used in this workspace
+.agents/skills/*
+
+# LaTeX build outputs
+build/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# SVG/Inkscape conversion cache
+svg-inkscape/
+*-svg-tex.pdf
+*-svg-tex.pdf_tex
+*-svg-raw.pdf
+
+# Temporary rendered review images
+review/
+review-*/
+*.ppm
