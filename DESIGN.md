@@ -365,12 +365,14 @@ mateixa macro incorpora el logo de la Facultat des de
 La macro `\besttitlemetadata` afegeix a baix a l'esquerra l'enllac al repositori
 de GitHub i el bloc de llicencia generat amb `\doclicenseThis`.
 
-La classe carrega `doclicense` amb CC BY 4.0 i icona petita:
+La classe carrega `doclicense` amb CC BY-NC-ND 4.0 i icona petita. Aquesta
+llicencia tambe queda declarada a [`LICENSE.md`](LICENSE.md), que ha de mantenir
+la mateixa variant que el paquet:
 
 ```tex
 \RequirePackage[
   type=CC,
-  modifier=by,
+  modifier=by-nc-nd,
   version=4.0,
   imagemodifier=-88x31,
   imageposition=left,

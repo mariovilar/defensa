@@ -26,6 +26,8 @@ diapositiva i no altera cap convencio, no cal tocar la documentacio.
 - [`res/rainfall.svg`](res/rainfall.svg): grafic SVG recolorit amb la paleta
   Air Force blue i inclos amb `\includesvg`.
 - [`DESIGN.md`](DESIGN.md): documentacio detallada del disseny actual.
+- [`LICENSE.md`](LICENSE.md): llicencia d'us del projecte, coherent amb el
+  paquet `doclicense` carregat a la classe.
 - [`guilloche.pdf`](guilloche.pdf): patro de fons de portada i transicions.
 - [`matematiquesinformatica-pos-rgb.png`](matematiquesinformatica-pos-rgb.png):
   logo de la Facultat per a la portada.
@@ -74,6 +76,8 @@ La presentacio usa:
 - inclusio de SVG amb el paquet `svg`; requereix `-shell-escape` i Inkscape
   disponible a `/opt/homebrew/bin/inkscape`.
 - `doclicense` es carrega a [`bestbeamer.cls`](bestbeamer.cls) per la portada;
+  la llicencia actual es CC BY-NC-ND 4.0 i tambe queda documentada a
+  [`LICENSE.md`](LICENSE.md);
   abans de canviar la llicencia o el layout, consulta [`DESIGN.md`](DESIGN.md)
   i la documentacio del paquet.
 
